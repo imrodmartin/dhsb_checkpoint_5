@@ -1,0 +1,104 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.opportunity.field_capacity
+    - field.field.node.opportunity.field_contact
+    - field.field.node.opportunity.field_details
+    - field.field.node.opportunity.field_good_for
+    - field.field.node.opportunity.field_location
+    - field.field.node.opportunity.field_photo
+    - field.field.node.opportunity.field_shift
+    - field.field.node.opportunity.field_skills
+    - field.field.node.opportunity.field_summary
+    - node.type.opportunity
+  module:
+    - datetime_range
+    - text
+    - user
+id: node.opportunity.default
+targetEntityType: node
+bundle: opportunity
+mode: default
+content:
+  field_capacity:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: []
+    weight: 104
+    region: content
+  field_contact:
+    type: basic_string
+    label: above
+    settings: []
+    third_party_settings: []
+    weight: 105
+    region: content
+  field_details:
+    type: text_default
+    label: above
+    settings: []
+    third_party_settings: []
+    weight: 102
+    region: content
+  field_good_for:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 108
+    region: content
+  field_location:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 106
+    region: content
+  field_photo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 109
+    region: content
+  field_shift:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: []
+    weight: 103
+    region: content
+  field_skills:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 107
+    region: content
+  field_summary:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: []
+    weight: 101
+    region: content
+  links:
+    settings: []
+    third_party_settings: []
+    weight: 100
+    region: content
+hidden: []

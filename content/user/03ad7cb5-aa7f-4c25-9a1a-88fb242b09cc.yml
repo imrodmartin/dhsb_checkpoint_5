@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 03ad7cb5-aa7f-4c25-9a1a-88fb242b09cc
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: dana
+  mail:
+    -
+      value: dana@millbrook.test
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: site_manager
+  path:
+    -
+      langcode: en
+      alias: null

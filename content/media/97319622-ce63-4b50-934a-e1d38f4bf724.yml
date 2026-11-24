@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 97319622-ce63-4b50-934a-e1d38f4bf724
+  bundle: image
+  default_langcode: en
+  depends:
+    5df450f5-84ac-4b9d-8ffe-12a302589357: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Northgate Pantry photo'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'The front entrance of Northgate Pantry'
+      title: ''
+      width: 2400
+      height: 1600
+      entity: 5df450f5-84ac-4b9d-8ffe-12a302589357

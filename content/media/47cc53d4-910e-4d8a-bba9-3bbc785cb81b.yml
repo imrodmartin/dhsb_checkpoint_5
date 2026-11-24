@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 47cc53d4-910e-4d8a-bba9-3bbc785cb81b
+  bundle: image
+  default_langcode: en
+  depends:
+    4acb8128-5e58-4cfd-9ffe-62a15156f96a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Community Kitchen photo'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Volunteers plating lunch at the Community Kitchen'
+      title: ''
+      width: 2400
+      height: 1600
+      entity: 4acb8128-5e58-4cfd-9ffe-62a15156f96a

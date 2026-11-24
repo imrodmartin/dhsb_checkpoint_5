@@ -1,0 +1,73 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - node.type.location
+    - node.type.opportunity
+    - node.type.story
+    - taxonomy.vocabulary.location_type
+    - taxonomy.vocabulary.skill
+    - taxonomy.vocabulary.volunteer_group
+    - workflows.workflow.editorial
+  module:
+    - administerusersbyrole
+    - content_moderation
+    - filter
+    - media
+    - navigation
+    - node
+    - system
+    - taxonomy
+id: site_manager
+label: 'Site manager'
+weight: 6
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access media overview'
+  - 'access navigation'
+  - 'access users overview'
+  - 'administer menu'
+  - 'cancel users by role'
+  - 'create document media'
+  - 'create image media'
+  - 'create location content'
+  - 'create opportunity content'
+  - 'create remote_video media'
+  - 'create story content'
+  - 'create terms in location_type'
+  - 'create terms in skill'
+  - 'create terms in volunteer_group'
+  - 'create users'
+  - 'delete any location content'
+  - 'delete any opportunity content'
+  - 'delete any story content'
+  - 'delete own opportunity content'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any location content'
+  - 'edit any opportunity content'
+  - 'edit any remote_video media'
+  - 'edit any story content'
+  - 'edit own image media'
+  - 'edit own opportunity content'
+  - 'edit terms in location_type'
+  - 'edit terms in skill'
+  - 'edit terms in volunteer_group'
+  - 'edit users by role'
+  - 'role-assign users by role'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use text format basic_html'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view the administration theme'

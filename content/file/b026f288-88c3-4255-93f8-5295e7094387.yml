@@ -1,0 +1,21 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b026f288-88c3-4255-93f8-5295e7094387
+  default_langcode: en
+default:
+  filename:
+    -
+      value: millbrook-warehouse.jpg
+  uri:
+    -
+      value: 'public://2026-11/millbrook-warehouse.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115958
+  status:
+    -
+      value: true

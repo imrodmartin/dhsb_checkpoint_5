@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 33b258fc-f599-4467-8840-4e406dc52d5a
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    cf86d728-ac9f-41a1-87c4-7d42f3eb80e4: menu_link_content
+    ee324a75-47e1-5d6d-9242-a0f3cc7f5799: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Northgate Pantry'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      title: null
+      options: {  }
+      target_uuid: ee324a75-47e1-5d6d-9242-a0f3cc7f5799
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:cf86d728-ac9f-41a1-87c4-7d42f3eb80e4'
+  revision_translation_affected:
+    -
+      value: true

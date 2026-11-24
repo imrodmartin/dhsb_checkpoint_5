@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: fab771d2-490c-40b7-96b2-41a3866a9928
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: marcus
+  mail:
+    -
+      value: marcus@millbrook.test
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: volunteer_coordinator
+  path:
+    -
+      langcode: en
+      alias: null

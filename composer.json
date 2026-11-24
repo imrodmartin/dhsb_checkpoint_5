@@ -1,0 +1,10 @@
+{
+    "name": "imrodmartin/dhsb_checkpoint_5",
+    "description": "DrupalHelps Site Building course: a fresh site at the end of Module 5 (Organization).",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^11.5",
+        "imrodmartin/dhsb_setup": "^1.0"
+    }
+}

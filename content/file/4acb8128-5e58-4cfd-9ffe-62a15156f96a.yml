@@ -1,0 +1,21 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4acb8128-5e58-4cfd-9ffe-62a15156f96a
+  default_langcode: en
+default:
+  filename:
+    -
+      value: community-kitchen.jpg
+  uri:
+    -
+      value: 'public://2026-11/community-kitchen.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116138
+  status:
+    -
+      value: true

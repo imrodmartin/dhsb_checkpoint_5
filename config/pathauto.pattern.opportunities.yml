@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.opportunity
+  module:
+    - node
+id: opportunities
+label: Opportunities
+type: 'canonical_entities:node'
+pattern: '/volunteer/[node:title]'
+selection_criteria:
+  141aa1cc-227f-43f1-9e4d-587de92418ec:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      opportunity: opportunity
+selection_logic: and
+weight: 0
+relationships: []

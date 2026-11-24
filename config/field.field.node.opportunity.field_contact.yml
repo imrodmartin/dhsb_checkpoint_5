@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact
+    - node.type.opportunity
+id: node.opportunity.field_contact
+field_name: field_contact
+entity_type: node
+bundle: opportunity
+label: 'Contact email'
+description: 'Who volunteers should write to about this shift.'
+required: true
+translatable: true
+default_value: []
+default_value_callback: ''
+settings: []
+field_type: email

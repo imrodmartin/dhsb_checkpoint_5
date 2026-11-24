@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.location.field_address
+    - field.field.node.location.field_hours
+    - field.field.node.location.field_location_type
+    - field.field.node.location.field_phone
+    - field.field.node.location.field_photo
+    - node.type.location
+  module:
+    - address
+    - text
+    - user
+id: node.location.default
+targetEntityType: node
+bundle: location
+mode: default
+content:
+  field_address:
+    type: address_default
+    label: above
+    settings: []
+    third_party_settings: []
+    weight: 101
+    region: content
+  field_hours:
+    type: text_default
+    label: above
+    settings: []
+    third_party_settings: []
+    weight: 102
+    region: content
+  field_location_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 104
+    region: content
+  field_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: []
+    weight: 103
+    region: content
+  field_photo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 105
+    region: content
+  links:
+    settings: []
+    third_party_settings: []
+    weight: 100
+    region: content
+hidden: []

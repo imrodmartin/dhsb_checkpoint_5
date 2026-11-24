@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skills
+    - node.type.opportunity
+    - taxonomy.vocabulary.skill
+id: node.opportunity.field_skills
+field_name: field_skills
+entity_type: node
+bundle: opportunity
+label: Skills
+description: 'Leave empty if anyone can do it.'
+required: false
+translatable: true
+default_value: []
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      skill: skill
+    auto_create: false
+field_type: entity_reference

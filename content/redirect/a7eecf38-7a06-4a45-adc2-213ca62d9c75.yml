@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a7eecf38-7a06-4a45-adc2-213ca62d9c75
+  bundle: redirect
+  default_langcode: en
+  depends:
+    16e2d214-7ece-580d-9d45-b61b718a60fa: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: JfqJUkDl3CQGdUuuI49f1B7X6bsc73HJ4-Ht2EuMMtA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: kitchen.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 16e2d214-7ece-580d-9d45-b61b718a60fa
+  status_code:
+    -
+      value: 301

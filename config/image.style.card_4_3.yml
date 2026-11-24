@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: card_4_3
+label: 'Card 4:3'
+effects:
+  c06deed9-3ad9-4db9-9bb2-367d9b420298:
+    uuid: c06deed9-3ad9-4db9-9bb2-367d9b420298
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 600
+      crop_type: focal_point

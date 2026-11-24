@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.location
+  module:
+    - node
+id: locations
+label: Locations
+type: 'canonical_entities:node'
+pattern: '/locations/[node:title]'
+selection_criteria:
+  01ebae4d-1fde-4e12-b7e4-2dbb4c5a5ee3:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      location: location
+selection_logic: and
+weight: 0
+relationships: []

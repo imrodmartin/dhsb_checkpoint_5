@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: []
+name: Skill
+vid: skill
+description: 'Skills that help on a shift. Most shifts need none.'
+weight: 0
+new_revision: false

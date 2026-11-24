@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.story.field_body
+    - field.field.node.story.field_location
+    - field.field.node.story.field_photo
+    - node.type.story
+  module:
+    - text
+    - user
+id: node.story.default
+targetEntityType: node
+bundle: story
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: []
+    third_party_settings: []
+    weight: 101
+    region: content
+  field_location:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 102
+    region: content
+  field_photo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: []
+    weight: 103
+    region: content
+  links:
+    settings: []
+    third_party_settings: []
+    weight: 100
+    region: content
+hidden: []

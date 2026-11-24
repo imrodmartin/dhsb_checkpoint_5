@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: []
+name: Opportunity
+type: opportunity
+description: 'A volunteer shift, with one or more dates.'
+help: 'Name the task, not the place. "Sort donations," not "Eastside."'
+new_revision: true
+preview_mode: 1
+display_submitted: false

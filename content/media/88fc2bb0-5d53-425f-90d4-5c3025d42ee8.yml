@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 88fc2bb0-5d53-425f-90d4-5c3025d42ee8
+  bundle: document
+  default_langcode: en
+  depends:
+    477f45f4-278e-4e4c-a055-6629c30276cf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Annual report 2026'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_document:
+    -
+      display: false
+      description: ''
+      entity: 477f45f4-278e-4e4c-a055-6629c30276cf

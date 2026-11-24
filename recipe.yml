@@ -1,0 +1,44 @@
+name: 'DrupalHelps Site Building: end of Module 5'
+description: "Brings a fresh Drupal 11.5 Standard site to the end of Module 5 (Organization). For a fresh site only: it can't repair a half-built one."
+type: Site
+recipes:
+  - dhsb_setup
+install:
+  - address
+  - administerusersbyrole
+  - content_moderation
+  - crop
+  - datetime_range
+  - field_group
+  - focal_point
+  - pathauto
+  - redirect
+  - token
+  - workflows
+config:
+  actions:
+    core.entity_form_display.media.image.default:
+      setComponents:
+        -
+          name: field_media_image
+          options:
+            type: image_focal_point
+            weight: 0
+            region: content
+            settings:
+              progress_indicator: throbber
+              preview_image_style: thumbnail
+              preview_link: true
+              offsets: '50,50'
+            third_party_settings: {  }
+    views.view.user_admin_people:
+      setProperties:
+        display.default.display_options.access.options.perm: 'access users overview'
+    administerusersbyrole.settings:
+      simpleConfigUpdate:
+        roles.volunteer_coordinator: safe
+        roles.communications_lead: safe
+# A recipe can't delete config. Delete these yourself if you need an exact match:
+#   system.action.user_add_role_action.content_editor
+#   system.action.user_remove_role_action.content_editor
+#   user.role.content_editor

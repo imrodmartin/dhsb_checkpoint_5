@@ -1,0 +1,21 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5df450f5-84ac-4b9d-8ffe-12a302589357
+  default_langcode: en
+default:
+  filename:
+    -
+      value: northgate-pantry.jpg
+  uri:
+    -
+      value: 'public://2026-11/northgate-pantry.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 111175
+  status:
+    -
+      value: true

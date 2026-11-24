@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee324a75-47e1-5d6d-9242-a0f3cc7f5799
+  bundle: location
+  default_langcode: en
+  depends:
+    232202ee-52d6-5ab9-82fd-69ae2f185962: taxonomy_term
+    97319622-ce63-4b50-934a-e1d38f4bf724: media
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Northgate Pantry'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /locations/northgate-pantry
+      langcode: en
+  field_address:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: OH
+      locality: Millbrook
+      dependent_locality: ''
+      postal_code: '45011'
+      sorting_code: ''
+      address_line1: '88 Mill Road'
+      address_line2: ''
+      address_line3: ''
+  field_hours:
+    -
+      value: '<p>Monday 4 to 7<br>Wednesday 4 to 7</p>'
+      format: basic_html
+  field_location_type:
+    -
+      entity: 232202ee-52d6-5ab9-82fd-69ae2f185962
+  field_phone:
+    -
+      value: '(555) 010-0102'
+  field_photo:
+    -
+      entity: 97319622-ce63-4b50-934a-e1d38f4bf724

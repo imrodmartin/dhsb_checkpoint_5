@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 786d724c-0a82-454b-93e3-e186e714e7af
+  bundle: image
+  default_langcode: en
+  depends:
+    c2153a88-351f-45eb-96e1-30e56e42a4d3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Eastside Pantry photo'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Volunteers stocking shelves inside Eastside Pantry'
+      title: ''
+      width: 2400
+      height: 1600
+      entity: c2153a88-351f-45eb-96e1-30e56e42a4d3

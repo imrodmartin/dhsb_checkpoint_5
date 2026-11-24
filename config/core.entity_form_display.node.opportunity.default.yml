@@ -1,0 +1,180 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.opportunity.field_capacity
+    - field.field.node.opportunity.field_contact
+    - field.field.node.opportunity.field_details
+    - field.field.node.opportunity.field_good_for
+    - field.field.node.opportunity.field_location
+    - field.field.node.opportunity.field_photo
+    - field.field.node.opportunity.field_shift
+    - field.field.node.opportunity.field_skills
+    - field.field.node.opportunity.field_summary
+    - node.type.opportunity
+  module:
+    - datetime_range
+    - field_group
+    - media_library
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_the_shift
+        - group_who_and_how
+      label: Tabs
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_the_shift:
+      children:
+        - field_location
+        - field_shift
+        - field_capacity
+        - field_summary
+      label: 'The shift'
+      region: content
+      parent_name: group_tabs
+      weight: 1
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+    group_who_and_how:
+      children:
+        - field_skills
+        - field_good_for
+        - field_contact
+        - field_details
+        - field_photo
+      label: 'Who and how'
+      region: content
+      parent_name: group_tabs
+      weight: 2
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+id: node.opportunity.default
+targetEntityType: node
+bundle: opportunity
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: []
+    third_party_settings: []
+  field_capacity:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: []
+  field_contact:
+    type: email_default
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: []
+  field_details:
+    type: text_textarea
+    weight: 8
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: []
+  field_good_for:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: []
+    third_party_settings: []
+  field_location:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: []
+  field_photo:
+    type: media_library_widget
+    weight: 9
+    region: content
+    settings:
+      media_types: []
+    third_party_settings: []
+  field_shift:
+    type: daterange_default
+    weight: 2
+    region: content
+    settings: []
+    third_party_settings: []
+  field_skills:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: []
+    third_party_settings: []
+  field_summary:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: []
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: []
+    third_party_settings: []
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: []
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: []
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: []
+hidden:
+  promote: true
+  sticky: true

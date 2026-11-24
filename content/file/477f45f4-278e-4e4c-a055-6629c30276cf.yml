@@ -1,0 +1,21 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 477f45f4-278e-4e4c-a055-6629c30276cf
+  default_langcode: en
+default:
+  filename:
+    -
+      value: annual-report-2026.pdf
+  uri:
+    -
+      value: 'public://2026-11/annual-report-2026.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 979
+  status:
+    -
+      value: true

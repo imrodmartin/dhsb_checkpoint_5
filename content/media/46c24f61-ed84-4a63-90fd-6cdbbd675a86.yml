@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 46c24f61-ed84-4a63-90fd-6cdbbd675a86
+  bundle: image
+  default_langcode: en
+  depends:
+    b026f288-88c3-4255-93f8-5295e7094387: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Millbrook Warehouse photo'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Pallets of donated food at the Millbrook Warehouse'
+      title: ''
+      width: 2400
+      height: 1600
+      entity: b026f288-88c3-4255-93f8-5295e7094387

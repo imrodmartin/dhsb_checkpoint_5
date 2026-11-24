@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 51c6f188-46a6-4eda-920e-d65afc755924
+  bundle: redirect
+  default_langcode: en
+  depends:
+    01b8ec06-4a99-54f6-ba42-1bb028c20ee5: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: xI24UcV81i3n0dL_TFllk-CPpjpPe40xvHFI4D2IZlM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: pantries.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 01b8ec06-4a99-54f6-ba42-1bb028c20ee5
+  status_code:
+    -
+      value: 301

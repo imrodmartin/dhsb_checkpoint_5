@@ -1,0 +1,21 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c2153a88-351f-45eb-96e1-30e56e42a4d3
+  default_langcode: en
+default:
+  filename:
+    -
+      value: eastside-pantry.jpg
+  uri:
+    -
+      value: 'public://2026-11/eastside-pantry.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 119775
+  status:
+    -
+      value: true

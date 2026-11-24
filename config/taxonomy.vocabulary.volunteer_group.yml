@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: []
+name: 'Volunteer group'
+vid: volunteer_group
+description: 'Who a shift suits: individuals, families, teams.'
+weight: 0
+new_revision: false

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shift
+    - node.type.opportunity
+  module:
+    - datetime_range
+id: node.opportunity.field_shift
+field_name: field_shift
+entity_type: node
+bundle: opportunity
+label: Shift
+description: 'Add one line for each date this shift runs.'
+required: true
+translatable: true
+default_value: []
+default_value_callback: ''
+settings: []
+field_type: daterange
